@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Core -->
+    <string name="app_name">Msebenzi</string>
+    <string name="tagline">Werkgeleenthede, nader aan die huis.</string>
+    <string name="back">Terug</string>
+
+    <!-- Auth -->
+    <string name="email">E-pos</string>
+    <string name="password">Wagwoord</string>
+    <string name="log_in">Meld aan</string>
+    <string name="log_out">Meld af</string>
+    <string name="no_account_register">Geen rekening nie? Registreer</string>
+    <string name="create_account">Skep rekening</string>
+    <string name="full_name">Volle naam</string>
+    <string name="i_am_a">Ek is \'n</string>
+    <string name="worker">Werker</string>
+    <string name="household">Huishouding</string>
+    <string name="register">Registreer</string>
+    <string name="welcome_back">Welkom terug</string>
+    <string name="or_divider">of</string>
+    <string name="continue_with_google">Gaan voort met Google</string>
+    <string name="register_subtitle">Sluit aan by jou plaaslike werkgemeenskap</string>
+    <string name="role_hint_household">Plaas take en vind betroubare plaaslike werkers.</string>
+    <string name="role_hint_worker">Blaai deur take naby jou en verdien ekstra inkomste.</string>
+    <string name="password_secure_note">Jou wagwoord word geënkripteer en nooit as gewone teks gestoor nie.</string>
+
+    <!-- Errors -->
+    <string name="error_invalid_email">Voer asseblief \'n geldige e-posadres in.</string>
+    <string name="error_password_required">Voer asseblief jou wagwoord in.</string>
+    <string name="error_password_short">Wagwoord moet minstens 6 karakters lank wees.</string>
+    <string name="error_name_required">Voer asseblief jou volle naam in.</string>
+    <string name="error_invalid_credentials">Verkeerde e-pos of wagwoord.</string>
+    <string name="error_email_taken">\'n Rekening met daardie e-pos bestaan reeds.</string>
+    <string name="error_server_generic">Iets het skeefgeloop. Probeer asseblief weer.</string>
+    <string name="error_network">Geen internetverbinding nie. Kontroleer asseblief jou netwerk en probeer weer.</string>
+    <string name="error_loading_job">Kon nie hierdie taak se besonderhede laai nie.</string>
+    <string name="error_accepting_job">Kon nie nou hierdie taak aanvaar nie.</string>
+    <string name="error_already_rated">Jy het hierdie taak reeds beoordeel.</string>
+    <string name="error_job_taken">Hierdie taak is nie meer beskikbaar nie.</string>
+    <string name="error_job_fields">Vul asseblief al die velde in en kies \'n diens.</string>
+    <string name="error_budget_invalid">Voer asseblief \'n geldige begroting in.</string>
+    <string name="error_image_read">Kon nie die foto lees nie. Probeer asseblief \'n ander een.</string>
+    <string name="google_not_configured">Google-aanmelding is nie in hierdie weergawe opgestel nie.</string>
+    <string name="error_no_google_account">Geen Google-rekening op hierdie foon gevind nie.</string>
+    <string name="error_google_failed">Google-aanmelding het misluk. Probeer asseblief weer.</string>
+    <string name="session_expired">Jou sessie het verval. Meld asseblief weer aan.</string>
+
+    <!-- Home -->
+    <string name="greeting">Hallo, %1$s</string>
+    <string name="subtitle_worker">Vind werk naby jou</string>
+    <string name="subtitle_household">Kry hulp met enige taak</string>
+    <string name="search_hint">Soek take, dienste of plekke</string>
+    <string name="services_we_offer">Dienste wat ons aanbied</string>
+    <string name="services_hint">Tik op \'n diens om take te filter</string>
+    <string name="latest_jobs">Nuutste take</string>
+    <string name="jobs_in_service">Take: %1$s</string>
+    <string name="no_jobs_yet">Geen take gevind nie. Trek af om te herlaai.</string>
+    <string name="post_a_job">Plaas \'n taak</string>
+    <string name="banner_offline">Jy is vanlyn - wys gestoorde take.</string>
+    <string name="banner_offline_pending">Jy is vanlyn - %1$d verandering(e) sal sinkroniseer sodra jy weer koppel.</string>
+    <string name="banner_pending">%1$d verandering(e) wag om te sinkroniseer.</string>
+    <string name="waiting_to_sync">Wag om te sinkroniseer</string>
+
+    <!-- Services we offer -->
+    <string name="service_cleaning">Skoonmaak</string>
+    <string name="service_gardening">Tuinwerk</string>
+    <string name="service_handyman">Handlanger</string>
+    <string name="service_painting">Verfwerk</string>
+    <string name="service_plumbing">Loodgieterswerk</string>
+    <string name="service_electrical">Elektries</string>
+    <string name="service_moving">Verhuising</string>
+    <string name="service_laundry">Wasgoed</string>
+    <string name="service_cleaning_desc">Huise, kantore en diepskoonmaak</string>
+    <string name="service_gardening_desc">Grasmaai, snoei en tuinonderhoud</string>
+    <string name="service_handyman_desc">Herstelwerk en klein opknappings</string>
+    <string name="service_painting_desc">Binne- en buite verfwerk</string>
+    <string name="service_plumbing_desc">Lekplekke, krane en geysers</string>
+    <string name="service_electrical_desc">Bedrading, skakelaars en ligte</string>
+    <string name="service_moving_desc">Verhuis en dra van swaar goed</string>
+    <string name="service_laundry_desc">Was, stryk en vou</string>
+
+    <!-- Job status -->
+    <string name="status_open">Oop</string>
+    <string name="status_accepted">Aanvaar</string>
+    <string name="status_completed">Voltooi</string>
+    <string name="status_cancelled">Gekanselleer</string>
+
+    <!-- Job detail -->
+    <string name="description">Beskrywing</string>
+    <string name="accept_job">Aanvaar taak</string>
+    <string name="mark_complete">Merk as voltooi</string>
+    <string name="job_marked_complete">Taak as voltooi gemerk.</string>
+    <string name="job_accepted">Taak aanvaar!</string>
+    <string name="view_profile">Bekyk profiel</string>
+    <string name="posted_by">Geplaas deur %1$s</string>
+    <string name="job_photo">Taakfoto</string>
+    <string name="waiting_to_sync_detail">Hierdie taak is op jou foon gestoor en word gelaai sodra jy weer aanlyn is.</string>
+    <string name="saved_offline_will_sync">Vanlyn gestoor - sal outomaties sinkroniseer wanneer jy weer aanlyn is.</string>
+
+    <!-- Ratings -->
+    <string name="rate_this_job">Beoordeel hierdie taak</string>
+    <string name="optional_comment">Opmerking (opsioneel)</string>
+    <string name="rating_submitted">Dankie - jou beoordeling is ingedien.</string>
+    <string name="submit">Dien in</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="reviews">Resensies</string>
+    <string name="no_reviews_yet">Nog geen resensies nie.</string>
+
+    <!-- Profile -->
+    <string name="nav_profile">Profiel</string>
+    <string name="verified">Geverifieer</string>
+    <string name="skills_label">Vaardighede</string>
+    <string name="about_label">Oor</string>
+    <string name="edit_skills_title">Jou dienste</string>
+    <string name="edit_skills_hint">Kies die dienste wat jy lewer - ons waarsku jou oor ooreenstemmende take.</string>
+    <string name="edit_bio_hint">Kort bio</string>
+    <string name="save_profile">Stoor profiel</string>
+    <string name="profile_saved">Profiel gestoor.</string>
+    <string name="request_verification">Versoek verifikasie</string>
+    <string name="verification_requested">Verifikasie versoek - \'n administrateur sal dit hersien.</string>
+    <string name="verification_pending">Verifikasie hangend</string>
+    <string name="profile_photo">Profielfoto</string>
+    <string name="change_photo">Verander foto</string>
+    <string name="photo_updated">Foto opgedateer.</string>
+    <string name="role_rating_summary">%1$s • ★ %2$s (%3$s)</string>
+
+    <!-- Alerts & notifications -->
+    <string name="alerts_title">Waarskuwings</string>
+    <string name="alerts_subtitle">Take wat by jou vaardighede pas en opdaterings</string>
+    <string name="no_alerts_yet">Nog geen waarskuwings nie. Ooreenstemmende take verskyn hier.</string>
+    <string name="alert_type_job_match">Nuwe taak-ooreenkoms</string>
+    <string name="alert_type_job_accepted">Taak aanvaar</string>
+    <string name="alert_type_job_completed">Taak voltooi</string>
+    <string name="alert_type_rating">Nuwe beoordeling</string>
+    <string name="alert_type_generic">Msebenzi-waarskuwing</string>
+    <string name="channel_name">Taakwaarskuwings</string>
+    <string name="channel_description">Nuwe ooreenstemmende take en opdaterings oor jou take</string>
+
+    <!-- Post a job -->
+    <string name="post_job_subtitle">Vertel werkers wat jy nodig het</string>
+    <string name="job_title">Taakopskrif</string>
+    <string name="category_hint">Diens</string>
+    <string name="location">Ligging</string>
+    <string name="budget_rands">Begroting (R)</string>
+    <string name="add_photo">Voeg \'n foto by</string>
+    <string name="post_job_button">Plaas taak</string>
+    <string name="job_posted">Taak geplaas!</string>
+    <string name="job_saved_offline">Taak op jou foon gestoor - dit word geplaas sodra jy weer aanlyn is.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Instellings</string>
+    <string name="language">Taal</string>
+    <string name="language_english">English</string>
+    <string name="language_afrikaans">Afrikaans</string>
+    <string name="language_xhosa">isiXhosa</string>
+    <string name="notifications_title">Kennisgewings &amp; sinkronisering</string>
+    <string name="push_notifications">Kennisgewings vir nuwe take</string>
+    <string name="notifications_denied">Kennisgewings is in Android se instellings geblokkeer.</string>
+    <string name="sync_now">Sinkroniseer nou</string>
+    <string name="sync_done">%1$d aksie(s) gesinkroniseer.</string>
+    <string name="sync_no_connection">Geen internetverbinding nie. Dit sal later sinkroniseer.</string>
+    <string name="sync_all_synced">Alle veranderinge is gesinkroniseer.</string>
+    <string name="sync_pending_count">%1$d verandering(e) wag om te sinkroniseer.</string>
+    <string name="save_settings">Stoor instellings</string>
+    <string name="settings_saved">Instellings gestoor.</string>
+    <string name="account_title">Rekening</string>
+    <string name="privacy_policy">Privaatheidsbeleid</string>
+    <string name="delete_account">Vee rekening uit</string>
+    <string name="delete_account_message">Jou persoonlike inligting word permanent verwyder. Dit kan nie ongedaan gemaak word nie.</string>
+    <string name="delete_account_confirm">Vee uit</string>
+    <string name="version_label">Msebenzi weergawe %1$s</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Tuis</string>
+    <string name="nav_alerts">Waarskuwings</string>
+    <string name="nav_settings">Instellings</string>
+
+    <plurals name="review_count">
+        <item quantity="one">%d resensie</item>
+        <item quantity="other">%d resensies</item>
+    </plurals>
+</resources>

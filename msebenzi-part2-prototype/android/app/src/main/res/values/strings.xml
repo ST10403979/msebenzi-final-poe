@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Core -->
+    <string name="app_name">Msebenzi</string>
+    <string name="tagline">Work opportunities, closer to home.</string>
+    <string name="back">Back</string>
+
+    <!-- Auth -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="log_out">Log Out</string>
+    <string name="no_account_register">Don\'t have an account? Register</string>
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full name</string>
+    <string name="i_am_a">I am a</string>
+    <string name="worker">Worker</string>
+    <string name="household">Household</string>
+    <string name="register">Register</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="or_divider">or</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="register_subtitle">Join your local work community</string>
+    <string name="role_hint_household">Post jobs and find trusted local workers.</string>
+    <string name="role_hint_worker">Browse jobs near you and earn extra income.</string>
+    <string name="password_secure_note">Your password is encrypted and never stored as plain text.</string>
+
+    <!-- Errors -->
+    <string name="error_invalid_email">Please enter a valid email address.</string>
+    <string name="error_password_required">Please enter your password.</string>
+    <string name="error_password_short">Password must be at least 6 characters.</string>
+    <string name="error_name_required">Please enter your full name.</string>
+    <string name="error_invalid_credentials">Incorrect email or password.</string>
+    <string name="error_email_taken">An account with that email already exists.</string>
+    <string name="error_server_generic">Something went wrong. Please try again.</string>
+    <string name="error_network">No internet connection. Please check your network and try again.</string>
+    <string name="error_loading_job">Could not load this job\'s details.</string>
+    <string name="error_accepting_job">Could not accept this job right now.</string>
+    <string name="error_already_rated">You have already rated this job.</string>
+    <string name="error_job_taken">This job is no longer available.</string>
+    <string name="error_job_fields">Please fill in every field and choose a service.</string>
+    <string name="error_budget_invalid">Please enter a valid budget amount.</string>
+    <string name="error_image_read">Could not read that photo. Please try another one.</string>
+    <string name="google_not_configured">Google sign-in is not set up in this build.</string>
+    <string name="error_no_google_account">No Google account found on this phone.</string>
+    <string name="error_google_failed">Google sign-in failed. Please try again.</string>
+    <string name="session_expired">Your session has expired. Please log in again.</string>
+
+    <!-- Home -->
+    <string name="greeting">Hi, %1$s</string>
+    <string name="subtitle_worker">Find work near you</string>
+    <string name="subtitle_household">Get help with any task</string>
+    <string name="search_hint">Search jobs, services or places</string>
+    <string name="services_we_offer">Services we offer</string>
+    <string name="services_hint">Tap a service to filter jobs</string>
+    <string name="latest_jobs">Latest jobs</string>
+    <string name="jobs_in_service">Jobs: %1$s</string>
+    <string name="no_jobs_yet">No jobs found. Pull down to refresh.</string>
+    <string name="post_a_job">Post a Job</string>
+    <string name="banner_offline">You\'re offline - showing saved jobs.</string>
+    <string name="banner_offline_pending">You\'re offline - %1$d change(s) will sync when you reconnect.</string>
+    <string name="banner_pending">%1$d change(s) waiting to sync.</string>
+    <string name="waiting_to_sync">Waiting to sync</string>
+
+    <!-- Services we offer -->
+    <string name="service_cleaning">Cleaning</string>
+    <string name="service_gardening">Gardening</string>
+    <string name="service_handyman">Handyman</string>
+    <string name="service_painting">Painting</string>
+    <string name="service_plumbing">Plumbing</string>
+    <string name="service_electrical">Electrical</string>
+    <string name="service_moving">Moving</string>
+    <string name="service_laundry">Laundry</string>
+    <string name="service_cleaning_desc">Homes, offices and deep cleans</string>
+    <string name="service_gardening_desc">Mowing, pruning and garden care</string>
+    <string name="service_handyman_desc">Repairs and small home fixes</string>
+    <string name="service_painting_desc">Interior and exterior painting</string>
+    <string name="service_plumbing_desc">Leaks, taps and geysers</string>
+    <string name="service_electrical_desc">Wiring, switches and lights</string>
+    <string name="service_moving_desc">Moving and lifting heavy items</string>
+    <string name="service_laundry_desc">Washing, ironing and folding</string>
+
+    <!-- Job status -->
+    <string name="status_open">Open</string>
+    <string name="status_accepted">Accepted</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_cancelled">Cancelled</string>
+
+    <!-- Job detail -->
+    <string name="description">Description</string>
+    <string name="accept_job">Accept Job</string>
+    <string name="mark_complete">Mark Complete</string>
+    <string name="job_marked_complete">Job marked complete.</string>
+    <string name="job_accepted">Job accepted!</string>
+    <string name="view_profile">View Profile</string>
+    <string name="posted_by">Posted by %1$s</string>
+    <string name="job_photo">Job photo</string>
+    <string name="waiting_to_sync_detail">This job is saved on your phone and will upload when you are back online.</string>
+    <string name="saved_offline_will_sync">Saved offline - it will sync automatically when you are back online.</string>
+
+    <!-- Ratings -->
+    <string name="rate_this_job">Rate This Job</string>
+    <string name="optional_comment">Comment (optional)</string>
+    <string name="rating_submitted">Thanks - your rating was submitted.</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="reviews">Reviews</string>
+    <string name="no_reviews_yet">No reviews yet.</string>
+
+    <!-- Profile -->
+    <string name="nav_profile">Profile</string>
+    <string name="verified">Verified</string>
+    <string name="skills_label">Skills</string>
+    <string name="about_label">About</string>
+    <string name="edit_skills_title">Your services</string>
+    <string name="edit_skills_hint">Pick the services you offer - we\'ll alert you about matching jobs.</string>
+    <string name="edit_bio_hint">Short bio</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="profile_saved">Profile saved.</string>
+    <string name="request_verification">Request Verification</string>
+    <string name="verification_requested">Verification requested - an admin will review it.</string>
+    <string name="verification_pending">Verification Pending</string>
+    <string name="profile_photo">Profile photo</string>
+    <string name="change_photo">Change photo</string>
+    <string name="photo_updated">Photo updated.</string>
+    <string name="role_rating_summary">%1$s • ★ %2$s (%3$s)</string>
+
+    <!-- Alerts & notifications -->
+    <string name="alerts_title">Alerts</string>
+    <string name="alerts_subtitle">Jobs matching your skills and updates</string>
+    <string name="no_alerts_yet">No alerts yet. New matching jobs will show up here.</string>
+    <string name="alert_type_job_match">New job match</string>
+    <string name="alert_type_job_accepted">Job accepted</string>
+    <string name="alert_type_job_completed">Job completed</string>
+    <string name="alert_type_rating">New rating</string>
+    <string name="alert_type_generic">Msebenzi alert</string>
+    <string name="channel_name">Job alerts</string>
+    <string name="channel_description">New matching jobs and updates on your jobs</string>
+
+    <!-- Post a job -->
+    <string name="post_job_subtitle">Tell workers what you need</string>
+    <string name="job_title">Job title</string>
+    <string name="category_hint">Service</string>
+    <string name="location">Location</string>
+    <string name="budget_rands">Budget (R)</string>
+    <string name="add_photo">Add a photo</string>
+    <string name="post_job_button">Post Job</string>
+    <string name="job_posted">Job posted!</string>
+    <string name="job_saved_offline">Job saved on your phone - it will post when you are back online.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_afrikaans">Afrikaans</string>
+    <string name="language_xhosa">isiXhosa</string>
+    <string name="notifications_title">Notifications &amp; sync</string>
+    <string name="push_notifications">Alerts for new jobs</string>
+    <string name="notifications_denied">Notifications are blocked in Android settings.</string>
+    <string name="sync_now">Sync now</string>
+    <string name="sync_done">%1$d action(s) synced.</string>
+    <string name="sync_no_connection">No internet connection. It will sync later.</string>
+    <string name="sync_all_synced">All changes are synced.</string>
+    <string name="sync_pending_count">%1$d change(s) waiting to sync.</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="settings_saved">Settings saved.</string>
+    <string name="account_title">Account</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="delete_account">Delete account</string>
+    <string name="delete_account_message">Your personal information will be permanently removed. This cannot be undone.</string>
+    <string name="delete_account_confirm">Delete</string>
+    <string name="version_label">Msebenzi version %1$s</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_alerts">Alerts</string>
+    <string name="nav_settings">Settings</string>
+
+    <plurals name="review_count">
+        <item quantity="one">%d review</item>
+        <item quantity="other">%d reviews</item>
+    </plurals>
+</resources>

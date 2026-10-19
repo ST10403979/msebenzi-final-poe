@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Core -->
+    <string name="app_name">Msebenzi</string>
+    <string name="tagline">Amathuba omsebenzi, kufutshane nekhaya.</string>
+    <string name="back">Buya umva</string>
+
+    <!-- Auth -->
+    <string name="email">I-imeyile</string>
+    <string name="password">I-password</string>
+    <string name="log_in">Ngena</string>
+    <string name="log_out">Phuma</string>
+    <string name="no_account_register">Awunayo i-akhawunti? Bhalisa</string>
+    <string name="create_account">Yenza I-akhawunti</string>
+    <string name="full_name">Igama elipheleleyo</string>
+    <string name="i_am_a">Ndingu</string>
+    <string name="worker">Umsebenzi</string>
+    <string name="household">Ikhaya</string>
+    <string name="register">Bhalisa</string>
+    <string name="welcome_back">Wamkelekile kwakhona</string>
+    <string name="or_divider">okanye</string>
+    <string name="continue_with_google">Qhubeka ne-Google</string>
+    <string name="register_subtitle">Joyina uluntu lwabasebenzi lwasekhaya</string>
+    <string name="role_hint_household">Beka imisebenzi ufumane abasebenzi abathembekileyo basekhaya.</string>
+    <string name="role_hint_worker">Khangela imisebenzi ekufutshane nawe uzuze imali eyongezelelweyo.</string>
+    <string name="password_secure_note">I-password yakho ifihlwe kwaye ayigcinwa njengombhalo ongafihlwanga.</string>
+
+    <!-- Errors -->
+    <string name="error_invalid_email">Nceda ufake i-imeyile esebenzayo.</string>
+    <string name="error_password_required">Nceda ufake i-password yakho.</string>
+    <string name="error_password_short">I-password kufuneka ibe nezinto ezingama-6 ubuncinci.</string>
+    <string name="error_name_required">Nceda ufake igama lakho elipheleleyo.</string>
+    <string name="error_invalid_credentials">I-imeyile okanye i-password engachanekanga.</string>
+    <string name="error_email_taken">I-akhawunti ene-imeyile leyo sele ikho.</string>
+    <string name="error_server_generic">Kukho into engahambanga kakuhle. Nceda uzame kwakhona.</string>
+    <string name="error_network">Akukho luqhagamshelwano lwe-intanethi. Nceda ujonge inethiwekhi yakho uzame kwakhona.</string>
+    <string name="error_loading_job">Ayikwazanga ukulayisha iinkcukacha zalo msebenzi.</string>
+    <string name="error_accepting_job">Ayikwazanga ukwamkela lo msebenzi ngoku.</string>
+    <string name="error_already_rated">Sele uwulinganisile lo msebenzi.</string>
+    <string name="error_job_taken">Lo msebenzi awusafumaneki.</string>
+    <string name="error_job_fields">Nceda ugcwalise onke amabala ukhethe nenkonzo.</string>
+    <string name="error_budget_invalid">Nceda ufake ibhajethi esebenzayo.</string>
+    <string name="error_image_read">Ayikwazanga ukufunda umfanekiso. Nceda uzame omnye.</string>
+    <string name="google_not_configured">Ukungena nge-Google akulungiswanga kolu shicilelo.</string>
+    <string name="error_no_google_account">Akukho akhawunti ye-Google ifunyenwe kule foni.</string>
+    <string name="error_google_failed">Ukungena nge-Google akuphumelelanga. Nceda uzame kwakhona.</string>
+    <string name="session_expired">Iseshoni yakho iphelelwe lixesha. Nceda ungene kwakhona.</string>
+
+    <!-- Home -->
+    <string name="greeting">Molo, %1$s</string>
+    <string name="subtitle_worker">Fumana umsebenzi ekufutshane nawe</string>
+    <string name="subtitle_household">Fumana uncedo kuyo nayiphi na imisebenzi</string>
+    <string name="search_hint">Khangela imisebenzi, iinkonzo okanye iindawo</string>
+    <string name="services_we_offer">Iinkonzo esizinikezelayo</string>
+    <string name="services_hint">Cofa inkonzo ukucoca imisebenzi</string>
+    <string name="latest_jobs">Imisebenzi emitsha</string>
+    <string name="jobs_in_service">Imisebenzi: %1$s</string>
+    <string name="no_jobs_yet">Akukho misebenzi ifunyenweyo. Tsala ezantsi ukuhlaziya.</string>
+    <string name="post_a_job">Beka Umsebenzi</string>
+    <string name="banner_offline">Awunayo i-intanethi - kubonisa imisebenzi egciniweyo.</string>
+    <string name="banner_offline_pending">Awunayo i-intanethi - utshintsho olungu-%1$d luzakuvumelanisa xa uqhagamshelwe kwakhona.</string>
+    <string name="banner_pending">Utshintsho olungu-%1$d lulindele ukuvumelanisa.</string>
+    <string name="waiting_to_sync">Kulindele ukuvumelanisa</string>
+
+    <!-- Services we offer -->
+    <string name="service_cleaning">Ukucoca</string>
+    <string name="service_gardening">Igadi</string>
+    <string name="service_handyman">Ukulungisa</string>
+    <string name="service_painting">Ukupeyinta</string>
+    <string name="service_plumbing">Upayipi</string>
+    <string name="service_electrical">Umbane</string>
+    <string name="service_moving">Ukufudusa</string>
+    <string name="service_laundry">Ukuhlamba</string>
+    <string name="service_cleaning_desc">Amakhaya, iiofisi nokucoca nzulu</string>
+    <string name="service_gardening_desc">Ukunqumla ingca, ukunqunqa nokugcina igadi</string>
+    <string name="service_handyman_desc">Ukulungisa nemisebenzi emincinci yasekhaya</string>
+    <string name="service_painting_desc">Ukupeyinta ngaphakathi nangaphandle</string>
+    <string name="service_plumbing_desc">Ukuvuza kwamanzi, iitepu neegeyser</string>
+    <string name="service_electrical_desc">Iingcingo, iiswitshi nezibane</string>
+    <string name="service_moving_desc">Ukufudusa nokuthwala izinto ezinzima</string>
+    <string name="service_laundry_desc">Ukuhlamba, ukuaya nokusonga</string>
+
+    <!-- Job status -->
+    <string name="status_open">Vulekile</string>
+    <string name="status_accepted">Yamkelwe</string>
+    <string name="status_completed">Igqityiwe</string>
+    <string name="status_cancelled">Irhoxisiwe</string>
+
+    <!-- Job detail -->
+    <string name="description">Inkcazelo</string>
+    <string name="accept_job">Yamkela Umsebenzi</string>
+    <string name="mark_complete">Phawula Njengokugqityiweyo</string>
+    <string name="job_marked_complete">Umsebenzi uphawulwe njengogqityiweyo.</string>
+    <string name="job_accepted">Umsebenzi wamkelwe!</string>
+    <string name="view_profile">Jonga Iprofayile</string>
+    <string name="posted_by">Ibekwe ngu-%1$s</string>
+    <string name="job_photo">Umfanekiso womsebenzi</string>
+    <string name="waiting_to_sync_detail">Lo msebenzi ugcinwe kwifowuni yakho kwaye uzakulayishwa xa uqhagamshelwe kwakhona.</string>
+    <string name="saved_offline_will_sync">Kugcinwe ungaqhagamshelwanga - kuzakuvumelanisa ngokwayo xa uqhagamshelwe kwakhona.</string>
+
+    <!-- Ratings -->
+    <string name="rate_this_job">Linganisa Lo Msebenzi</string>
+    <string name="optional_comment">Ingxelo (ayimfuneki)</string>
+    <string name="rating_submitted">Enkosi - uphawu lwakho lungeniswe.</string>
+    <string name="submit">Ngenisa</string>
+    <string name="cancel">Rhoxisa</string>
+    <string name="reviews">Uphononongo</string>
+    <string name="no_reviews_yet">Akukabikho uphononongo.</string>
+
+    <!-- Profile -->
+    <string name="nav_profile">Iprofayile</string>
+    <string name="verified">Iqinisekisiwe</string>
+    <string name="skills_label">Izakhono</string>
+    <string name="about_label">Malunga</string>
+    <string name="edit_skills_title">Iinkonzo zakho</string>
+    <string name="edit_skills_hint">Khetha iinkonzo oziqhubayo - siza kukwazisa ngemisebenzi ehambelanayo.</string>
+    <string name="edit_bio_hint">Ibhayografi emfutshane</string>
+    <string name="save_profile">Gcina Iprofayile</string>
+    <string name="profile_saved">Iprofayile igciniwe.</string>
+    <string name="request_verification">Cela Ukuqinisekiswa</string>
+    <string name="verification_requested">Ukuqinisekiswa kuceliwe - umlawuli uzakuhlola.</string>
+    <string name="verification_pending">Ukuqinisekiswa Kusalindiwe</string>
+    <string name="profile_photo">Umfanekiso weprofayile</string>
+    <string name="change_photo">Tshintsha umfanekiso</string>
+    <string name="photo_updated">Umfanekiso uhlaziyiwe.</string>
+    <string name="role_rating_summary">%1$s • ★ %2$s (%3$s)</string>
+
+    <!-- Alerts & notifications -->
+    <string name="alerts_title">Izaziso</string>
+    <string name="alerts_subtitle">Imisebenzi ehambelana nezakhono zakho kunye nohlaziyo</string>
+    <string name="no_alerts_yet">Akukabikho zaziso okwangoku. Imisebenzi emitsha efanelekileyo izakubonakala apha.</string>
+    <string name="alert_type_job_match">Umsebenzi omtsha ohambelanayo</string>
+    <string name="alert_type_job_accepted">Umsebenzi wamkelwe</string>
+    <string name="alert_type_job_completed">Umsebenzi ugqityiwe</string>
+    <string name="alert_type_rating">Uphawu olutsha</string>
+    <string name="alert_type_generic">Isaziso se-Msebenzi</string>
+    <string name="channel_name">Izaziso zemisebenzi</string>
+    <string name="channel_description">Imisebenzi emitsha ehambelanayo kunye nohlaziyo lwemisebenzi yakho</string>
+
+    <!-- Post a job -->
+    <string name="post_job_subtitle">Byela abasebenzi ukuba yintoni oyifunayo</string>
+    <string name="job_title">Isihloko somsebenzi</string>
+    <string name="category_hint">Inkonzo</string>
+    <string name="location">Indawo</string>
+    <string name="budget_rands">Ibhajethi (R)</string>
+    <string name="add_photo">Yongeza umfanekiso</string>
+    <string name="post_job_button">Beka Umsebenzi</string>
+    <string name="job_posted">Umsebenzi ubekiwe!</string>
+    <string name="job_saved_offline">Umsebenzi ugcinwe kwifowuni yakho - uzakubekwa xa uqhagamshelwe kwakhona.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Iisethingi</string>
+    <string name="language">Ulwimi</string>
+    <string name="language_english">English</string>
+    <string name="language_afrikaans">Afrikaans</string>
+    <string name="language_xhosa">isiXhosa</string>
+    <string name="notifications_title">Izaziso nokuvumelanisa</string>
+    <string name="push_notifications">Izaziso zemisebenzi emitsha</string>
+    <string name="notifications_denied">Izaziso zivalwe kwiisethingi ze-Android.</string>
+    <string name="sync_now">Vumelanisa ngoku</string>
+    <string name="sync_done">Izenzo ezingu-%1$d zivumelanisiwe.</string>
+    <string name="sync_no_connection">Akukho luqhagamshelwano lwe-intanethi. Kuzakuvumelanisa kamva.</string>
+    <string name="sync_all_synced">Onke utshintsho luvumelanisiwe.</string>
+    <string name="sync_pending_count">Utshintsho olungu-%1$d lulindele ukuvumelanisa.</string>
+    <string name="save_settings">Gcina Iisethingi</string>
+    <string name="settings_saved">Iisethingi zigciniwe.</string>
+    <string name="account_title">I-akhawunti</string>
+    <string name="privacy_policy">Umgaqo-nkqubo wobumfihlo</string>
+    <string name="delete_account">Cima i-akhawunti</string>
+    <string name="delete_account_message">Ulwazi lwakho lobuqu luzakucinywa ngokusisigxina. Oku akunakuhlehliswa.</string>
+    <string name="delete_account_confirm">Cima</string>
+    <string name="version_label">Msebenzi inguqulelo %1$s</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Ikhaya</string>
+    <string name="nav_alerts">Izaziso</string>
+    <string name="nav_settings">Iisethingi</string>
+
+    <plurals name="review_count">
+        <item quantity="one">uphononongo (%d)</item>
+        <item quantity="other">uphononongo (%d)</item>
+    </plurals>
+</resources>

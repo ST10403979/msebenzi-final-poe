@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Keep the encrypted session out of cloud backups/transfers: the keystore key can't be restored on a new device. -->
+<full-backup-content>
+    <exclude domain="sharedpref" path="msebenzi_secure_prefs.xml" />
+    <exclude domain="database" path="msebenzi.db" />
+</full-backup-content>

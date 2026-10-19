@@ -1,0 +1,30 @@
+# --- Backend (Node) ---
+backend/node_modules/
+backend/.env
+backend/*.sqlite
+backend/npm-debug.log*
+
+# --- Android ---
+android/local.properties
+android/.gradle/
+android/**/build/
+android/.idea/
+android/*.iml
+android/captures/
+android/.cxx/
+android/app/release/
+
+# --- Secrets: NEVER commit these ---
+*.jks
+*.keystore
+keystore.properties
+release.jks
+serviceAccount*.json
+firebase-adminsdk*.json
+
+# --- IDE / OS ---
+.idea/
+local.properties
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="msebenzi_secure_prefs.xml" />
+        <exclude domain="database" path="msebenzi.db" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="msebenzi_secure_prefs.xml" />
+        <exclude domain="database" path="msebenzi.db" />
+    </device-transfer>
+</data-extraction-rules>
